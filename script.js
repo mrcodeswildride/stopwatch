@@ -13,8 +13,7 @@ function startStop() {
   if (running == false) {
     intervalId = setInterval(run, 10)
     running = true
-  }
-  else {
+  } else {
     clearInterval(intervalId)
     running = false
   }
